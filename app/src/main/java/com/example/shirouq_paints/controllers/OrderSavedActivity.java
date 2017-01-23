@@ -224,10 +224,10 @@ public class OrderSavedActivity extends AppCompatActivity {
 
     JSONParser SalePointjsonParser = new JSONParser();
 
-    private static String url_sp_update = "http://consulsat-sd.com/roatable/update_salepoint.php";
-    private static String url_visit_update = "http://consulsat-sd.com/roatable/save_visite.php";
-    private static String url_visit_result_update = "http://consulsat-sd.com/roatable/save_visite_result.php";
-    private static String url_sps_info = "http://consulsat-sd.com/roatable/sps_get_info.php";
+    private static String url_sp_update = "<LINK>/update_salepoint.php";
+    private static String url_visit_update = "<LINK>/save_visite.php";
+    private static String url_visit_result_update = "<LINK>/save_visite_result.php";
+    private static String url_sps_info = "<LINK>/sps_get_info.php";
     private static final String TAG_SP_ID = "sp_id";
     private static final String TAG_SP_NAME = "sp_name";
     private static final String TAG_SP_TYPE = "sp_type";
